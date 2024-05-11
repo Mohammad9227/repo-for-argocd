@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/Mohammad9227/repo-for-argocd.git'
-    path: "*"
+    path: "app_deploy*"
     targetRevision: HEAD  # or specify a branch, tag, or commit
   destination:
     server: 'https://kubernetes.default.svc'
