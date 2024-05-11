@@ -18,3 +18,6 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:     # Sync options which modifies sync behavior
+    - Validate=false # disables resource validation (equivalent to 'kubectl apply --validate=false') ( true by default ).
+    - CreateNamespace=true
